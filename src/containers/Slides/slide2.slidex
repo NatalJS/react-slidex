@@ -1,0 +1,8 @@
+<Slide>
+  <Header>Requisitos</Header>
+  <ul>
+   <li>Webpack Configurado</li>
+   <li>Editor de Texto</li>
+   <li>Instalação de dependência: <strong>npm install marvel-nataljs-style </strong></li> 
+  </ul>
+</Slide>
