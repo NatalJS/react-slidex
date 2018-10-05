@@ -1,1 +1,1 @@
-# React Boilerplate Project
+# React slidex

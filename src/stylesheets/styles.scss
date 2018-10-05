@@ -1,5 +1,4 @@
-
-body{
+body {
   height: 100vh;
   background-color: #fff;
   color: #000;
@@ -8,18 +7,20 @@ body{
   overflow: hidden;
   padding: 0;
   margin: 0;
-  }
-//floated elements
-.box-green{
- position: absolute;
- width: 80px;
- height: 80px;
- background-color: #76BA55;
- left: -40px;
- top: -30px;
- transform: rotate(60deg);
 }
-.ball-pink{
+
+//floated elements
+.box-green {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #76BA55;
+  left: -40px;
+  top: -30px;
+  transform: rotate(60deg);
+}
+
+.ball-pink {
   position: absolute;
   width: 80px;
   height: 80px;
@@ -28,20 +29,23 @@ body{
   top: 20%;
   border-radius: 100%;
 }
-.footer{
- width: 120%;
- height: 130px;
- position: absolute;
- bottom: -70px;
- left: -10px;
- transform: rotate(5deg);
- background-color: #FBCF35;
+
+.footer {
+  width: 120%;
+  height: 130px;
+  position: absolute;
+  bottom: -70px;
+  left: -10px;
+  transform: rotate(5deg);
+  background-color: #FBCF35;
 }
+
 @keyframes example {
-    from {transform: translateX(300px)}
-    to {transform: translateX(0);}
-  }  
-.container{
+  from {transform: translateX(300px)}
+  to {transform: translateX(0);}
+}
+
+.container {
   height: 90vh;
   display: flex;
   width: 70%;
@@ -49,16 +53,18 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  h1{
+  h1 {
     font-size: 40px;
     text-align: center;
-    animation: example ease-in-out 0.25s;  
+    animation: example ease-in-out 0.25s;
   }
-  h2{
-      font-size: 35px;
+  h2 {
+    font-size: 35px;
   }
-  ul{list-style: none}
-  li{
+  ul {
+    list-style: none
+  }
+  li {
     font-size: 30px;
     &:before{
       content: "•  ";

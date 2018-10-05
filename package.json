@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplate-project",
+  "name": "react-slidex",
   "version": "1.0.0",
-  "description": "Just an updated version of my regular React boilerplate",
+  "description": "A simple way to create your presetations",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
