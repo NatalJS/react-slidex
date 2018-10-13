@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import JsxParser from 'react-jsx-parser';
-import slide1 from '../slides/slide1.slidex';
-import slide2 from '../slides/slide2.slidex';
-import slide3 from '../slides/slide3.slidex';
+import slide1 from 'Slides/slide1.slidex';
+import slide2 from 'Slides/slide2.slidex';
+import slide3 from 'Slides/slide3.slidex';
 
-import '../../stylesheets/styles.scss';
+import 'Stylesheets/styles.scss';
 
 const Slide = ({ children }) => (
   <div className="container">
