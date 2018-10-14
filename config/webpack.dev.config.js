@@ -1,5 +1,13 @@
 var HtmlWebpackPlugin = require("html-webpack-plugin");
+var path = require('path');
+
 module.exports = {
+  resolve: {
+    alias: {
+      Slides: path.resolve(__dirname, '../src/Slides'),
+      Stylesheets: path.resolve(__dirname, '../src/Stylesheets'),
+    }
+  },
   module: {
     rules: [
       {

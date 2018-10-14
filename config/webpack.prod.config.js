@@ -14,6 +14,12 @@ const productionConfiguration = function(env) {
 	};
 };
 module.exports = {
+	resolve: {
+    alias: {
+      Slides: path.resolve(__dirname, '../src/Slides'),
+      Stylesheets: path.resolve(__dirname, '../src/Stylesheets'),
+    }
+  },
 	optimization: {
 		minimizer: [
 			new UglifyJsPlugin({
